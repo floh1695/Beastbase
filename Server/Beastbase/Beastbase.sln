@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Api", "Beastbase.Api\Beastbase.Api.csproj", "{D1716BC6-6365-47F5-8FED-2518ACECB255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Api", "Beastbase.Api\Beastbase.Api.csproj", "{D1716BC6-6365-47F5-8FED-2518ACECB255}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B2CA47D-504A-4313-A363-32B7A4E10B6E} = {4B2CA47D-504A-4313-A363-32B7A4E10B6E}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Domain", "Beastbase.Domain\Beastbase.Domain.csproj", "{4B2CA47D-504A-4313-A363-32B7A4E10B6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Domain", "Beastbase.Domain\Beastbase.Domain.csproj", "{4B2CA47D-504A-4313-A363-32B7A4E10B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Data", "Beastbase.Data\Beastbase.Data.csproj", "{8872027F-98B6-4272-89AD-DD661D5154DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Data", "Beastbase.Data\Beastbase.Data.csproj", "{8872027F-98B6-4272-89AD-DD661D5154DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45} = {71D654C9-47EF-4B9B-A169-F76BEB963E45}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Entities", "Beastbase.Entities\Beastbase.Entities.csproj", "{71D654C9-47EF-4B9B-A169-F76BEB963E45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,10 @@ Global
 		{8872027F-98B6-4272-89AD-DD661D5154DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8872027F-98B6-4272-89AD-DD661D5154DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8872027F-98B6-4272-89AD-DD661D5154DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
