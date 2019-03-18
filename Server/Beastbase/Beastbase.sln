@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Data", "Beastbase
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Entities", "Beastbase.Entities\Beastbase.Entities.csproj", "{71D654C9-47EF-4B9B-A169-F76BEB963E45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Migrations", "Beastbase.Migrations\Beastbase.Migrations.csproj", "{7B902407-B634-4905-9937-06C3DB753A31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

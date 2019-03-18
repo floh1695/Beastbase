@@ -1,4 +1,3 @@
-﻿namespace Beastbase.Entities
 ﻿using System;
 
 namespace Beastbase.Entities
@@ -8,6 +7,6 @@ namespace Beastbase.Entities
 		public Guid Id { get; set; }
 
 		public string Hash { get; set; }
-		public string Secret { get; set; }
+		public string Salt { get; set; }
 	}
 }
