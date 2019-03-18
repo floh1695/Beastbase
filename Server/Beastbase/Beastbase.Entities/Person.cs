@@ -1,13 +1,15 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Beastbase.Entities
 {
 	public class Person
 	{
-		public int Id { get; set; }
+		public Guid Id { get; set; }
 
-		public int CredentialsId { get; set; }
-		public virtual Credentials Credentials { get; set; }
+		public string Name { get; set; }
+
+		public LoginCredentials LoginCredentials { get; set; }
 
 		public virtual ICollection<Report> Reports { get; set; }
 
