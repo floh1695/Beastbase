@@ -4,7 +4,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg charcoal">
+        <nav className="navbar navbar-expand-lg charcoal fixed-top">
           <a className="navbar-brand text-light" href="#">
             Beastbase
           </a>

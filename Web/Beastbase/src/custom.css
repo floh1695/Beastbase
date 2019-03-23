@@ -1,7 +1,7 @@
 body {
-  height: 100vh;
+  /* height: 100vh; */
   background: #0a1237;
-  background: -moz-linear-gradient(
+  /* background: -moz-linear-gradient(
     top,
     rgba(13, 13, 13, 1) 0%,
     rgba(10, 18, 55, 1) 80%,
@@ -38,7 +38,19 @@ body {
     rgba(10, 18, 55, 1) 80%,
     rgba(10, 18, 55, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0a1237', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0a1237', GradientType=0 ); */
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-56 {
+  margin-top: 56px;
+}
+
+.mt-10vh {
+  transform: translateY(10vh);
 }
 
 /* COLORS */
@@ -55,4 +67,42 @@ body {
 
 .jumbotron {
   background-color: rgba(0, 0, 0, 0);
+}
+
+/* FORMS */
+
+#register-card {
+  width:20%;
+  margin: auto;
+  background-color: rgba(0, 123, 255, 0.4);
+}
+
+#login-card {
+  width:20%;
+  margin: auto;
+  background-color: rgba(52, 58, 64, 0.4);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 991px) {
+  h1.display-1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1.display-1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1.display-1 {
+    font-size: 30px;
+  }
+
+  p.lead {
+    font-size: 14px;
+  }
 }
