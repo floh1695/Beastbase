@@ -123,7 +123,7 @@ namespace Beastbase.Migrations
 						.NotNullable()
 						.PrimaryKey()
 						.Identity()
-					.WithColumn(nameof(Report.Animal))
+					.WithColumn(nameof(Report.AnimalId))
 						.AsGuid()
 						.ForeignKey(nameof(Animal), nameof(Animal.Id))
 					.WithColumn(nameof(Report.ReporterId))
@@ -136,5 +136,15 @@ namespace Beastbase.Migrations
 					.WithColumn(nameof(Entry.Id))
 						.AsGuid()
 						.NotNullable()
+						.PrimaryKey()
+						.Identity()
+					.WithColumn(nameof(Entry.ReportId))
+						.AsGuid()
+						.NotNullable()
+						.ForeignKey(nameof(Report), nameof(Report.Id))
+					.WithColumn(nameof(Entry.ReporterId))
+						.AsGuid()
+						.NotNullable()
+						.ForeignKey(nameof(Person), nameof(Person.Id));
 	}
 }
