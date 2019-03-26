@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Api", "Beastbase.Api\Beastbase.Api.csproj", "{D1716BC6-6365-47F5-8FED-2518ACECB255}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -15,9 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Data", "Beastbase
 		{71D654C9-47EF-4B9B-A169-F76BEB963E45} = {71D654C9-47EF-4B9B-A169-F76BEB963E45}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Entities", "Beastbase.Entities\Beastbase.Entities.csproj", "{71D654C9-47EF-4B9B-A169-F76BEB963E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Entities", "Beastbase.Entities\Beastbase.Entities.csproj", "{71D654C9-47EF-4B9B-A169-F76BEB963E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastbase.Migrations", "Beastbase.Migrations\Beastbase.Migrations.csproj", "{7B902407-B634-4905-9937-06C3DB753A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Migrations", "Beastbase.Migrations\Beastbase.Migrations.csproj", "{7B902407-B634-4905-9937-06C3DB753A31}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8872027F-98B6-4272-89AD-DD661D5154DF} = {8872027F-98B6-4272-89AD-DD661D5154DF}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
