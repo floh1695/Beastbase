@@ -1,6 +1,6 @@
-﻿namespace Beastbase.Data.ConnectionSettings
+﻿namespace Beastbase.Data
 {
-	public class ConnectionSettings
+	public class DatabaseSettings
 	{
 		public string Server { get; set; }
 		public string Database { get; set; }

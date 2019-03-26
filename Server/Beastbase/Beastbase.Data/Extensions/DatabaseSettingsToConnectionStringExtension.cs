@@ -1,10 +1,10 @@
 ﻿using System.Data.SqlClient;
 
-namespace Beastbase.Data.ConnectionSettings.Extensions
+namespace Beastbase.Data.Extensions
 {
-	public static class ConnectionSettingsToConnectionStringExtension
+	public static class DatabaseSettingsToConnectionStringExtension
 	{
-		public static string ToConnectionString(this ConnectionSettings settings)
+		public static string ToConnectionString(this DatabaseSettings settings)
 		{
 			var builder = new SqlConnectionStringBuilder();
 

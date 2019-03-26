@@ -1,10 +1,10 @@
 ﻿using System.Data.SqlClient;
 
-namespace Beastbase.Data.ConnectionSettings.Extensions
+namespace Beastbase.Data.Extensions
 {
-	public static class ConnectionStringToConnectionSettingsExtension
+	public static class ConnectionStringToDatabaseSettingsExtension
 	{
-		public static ConnectionSettings ToConnectionSettings(this string connectionString)
+		public static DatabaseSettings ToDatabaseSettings(this string connectionString)
 		{
 			var builder = new SqlConnectionStringBuilder(connectionString);
 
@@ -14,7 +14,7 @@ namespace Beastbase.Data.ConnectionSettings.Extensions
 			var username = builder["User Id"].ToString();
 			var password = builder["Password"].ToString();
 
-			var settings = new ConnectionSettings
+			var settings = new DatabaseSettings
 			{
 				Server = server,
 				Database = database,
