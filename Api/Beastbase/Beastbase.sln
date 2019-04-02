@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Data", "Beastbase
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Entities", "Beastbase.Entities\Beastbase.Entities.csproj", "{71D654C9-47EF-4B9B-A169-F76BEB963E45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Migrations", "Beastbase.Migrations\Beastbase.Migrations.csproj", "{7B902407-B634-4905-9937-06C3DB753A31}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
