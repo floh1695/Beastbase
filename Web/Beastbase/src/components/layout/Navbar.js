@@ -31,6 +31,11 @@ class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link text-light" href="#">
+                  Beast Listing
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link text-light" href="#">
                   About Beastbase
                 </a>
               </li>
