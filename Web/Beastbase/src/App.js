@@ -4,9 +4,11 @@ import Navbar from "./components/layout/Navbar";
 import BeastListing from "./components/pages/BeastListing";
 import AboutApp from "./components/pages/AboutApp";
 import AboutDevs from "./components/pages/AboutDevs";
+import Register from "./components/pages/Register";
+import Login from "./components/pages/Login";
 import RegisterLogin from "./components/RegisterLogin";
-import RegisterUser from "./components/forms/RegisterUser";
-import LoginUser from "./components/forms/LoginUser";
+
+
 
 import "./App.css";
 
@@ -22,10 +24,9 @@ class App extends Component {
               <Route exact path="/beast-listing" component={BeastListing} />
               <Route exact path="/about-beastbase" component={AboutApp} />
               <Route exact path="/developers" component={AboutDevs} />
+              <Route exact path="/register" component={Register} />
+              <Route exact path="/login" component={Login} />
             </Switch>
-            {/* <RegisterLogin />
-            <RegisterUser />
-            <LoginUser /> */}
           </div>
         </div>
       </Router>

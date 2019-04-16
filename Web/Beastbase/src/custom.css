@@ -41,6 +41,14 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0a1237', GradientType=0 );
 }
 
+.full-height {
+  height: 100vh;
+}
+
+.center-screen {
+  top: 25vh;
+}
+
 .mt-15 {
   margin-top: 15px;
 }

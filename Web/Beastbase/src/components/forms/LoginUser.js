@@ -9,7 +9,7 @@ class LoginUser extends Component {
         const { loginUserName, loginPassword } = this.state;
         return (
             <div>
-                <div className="card" id="login-card">
+                <div className="card center-screen" id="login-card">
                     <div className="card-body text-light">
                         <form className="round-preset pt-4">
                             <div className="form-group text-left">

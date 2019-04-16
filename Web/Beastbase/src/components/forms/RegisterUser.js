@@ -11,8 +11,8 @@ class RegisterUser extends Component {
     render() {
         const { username, email, password, confirmPassword } = this.state;
         return (
-            <div>
-                <div className="card" id="register-card">
+            <div className="full-height">
+                <div className="card center-screen" id="register-card">
                     <div className="card-body text-light">
                         <form className="round-preset pt-4">
                             <div className="form-group text-left">
