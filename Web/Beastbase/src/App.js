@@ -1,26 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+import BeastListing from "./components/pages/BeastListing";
+import BeastEntry from "./components/pages/BeastEntry";
+import AboutApp from "./components/pages/AboutApp";
+import AboutDevs from "./components/pages/AboutDevs";
+import Register from "./components/pages/Register";
+import Login from "./components/pages/Login";
+import RegisterLogin from "./components/RegisterLogin";
+
+
+
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <div className="App">
+          <Navbar />
+          <div className="container-fluid">
+            <Switch>
+              <Route exact path="/" component={RegisterLogin} />
+              <Route exact path="/beast-listing" component={BeastListing} />
+              <Route exact path="/beast-entry" component={BeastEntry} />
+              <Route exact path="/about-beastbase" component={AboutApp} />
+              <Route exact path="/developers" component={AboutDevs} />
+              <Route exact path="/register" component={Register} />
+              <Route exact path="/login" component={Login} />
+            </Switch>
+          </div>
+        </div>
+      </Router>
     );
   }
 }
