@@ -40,7 +40,7 @@ namespace Beastbase.Api
 				app.UseHsts();
 			}
 
-			app.UseHttpsRedirection();
+			//app.UseHttpsRedirection();
 			app.UseMvc();
 		}
 	}

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Api", "Beastbase.Api\Beastbase.Api.csproj", "{D1716BC6-6365-47F5-8FED-2518ACECB255}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B2CA47D-504A-4313-A363-32B7A4E10B6E} = {4B2CA47D-504A-4313-A363-32B7A4E10B6E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Domain", "Beastbase.Domain\Beastbase.Domain.csproj", "{4B2CA47D-504A-4313-A363-32B7A4E10B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Data", "Beastbase.Data\Beastbase.Data.csproj", "{8872027F-98B6-4272-89AD-DD661D5154DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45} = {71D654C9-47EF-4B9B-A169-F76BEB963E45}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beastbase.Entities", "Beastbase.Entities\Beastbase.Entities.csproj", "{71D654C9-47EF-4B9B-A169-F76BEB963E45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1716BC6-6365-47F5-8FED-2518ACECB255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1716BC6-6365-47F5-8FED-2518ACECB255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1716BC6-6365-47F5-8FED-2518ACECB255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1716BC6-6365-47F5-8FED-2518ACECB255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2CA47D-504A-4313-A363-32B7A4E10B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2CA47D-504A-4313-A363-32B7A4E10B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2CA47D-504A-4313-A363-32B7A4E10B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2CA47D-504A-4313-A363-32B7A4E10B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8872027F-98B6-4272-89AD-DD661D5154DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8872027F-98B6-4272-89AD-DD661D5154DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8872027F-98B6-4272-89AD-DD661D5154DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8872027F-98B6-4272-89AD-DD661D5154DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D654C9-47EF-4B9B-A169-F76BEB963E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B902407-B634-4905-9937-06C3DB753A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8152FE83-9AF3-4C3A-AE2C-51595D8720E5}
+	EndGlobalSection
+EndGlobal
