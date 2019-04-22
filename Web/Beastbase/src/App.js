@@ -21,13 +21,13 @@ class App extends Component {
           <Navbar />
           <div className="container-fluid">
             <Switch>
-              <Route exact path="/" component={RegisterLogin} />
-              <Route exact path="/beast-listing" component={BeastListing} />
-              <Route exact path="/beast-entry" component={BeastEntry} />
-              <Route exact path="/about-beastbase" component={AboutApp} />
-              <Route exact path="/developers" component={AboutDevs} />
-              <Route exact path="/register" component={Register} />
-              <Route exact path="/login" component={Login} />
+              <Route exact path="/beastbase/web/" component={RegisterLogin} />
+              <Route exact path="/beastbase/web/beast-listing" component={BeastListing} />
+              <Route exact path="/beastbase/web/beast-entry" component={BeastEntry} />
+              <Route exact path="/beastbase/web/about-beastbase" component={AboutApp} />
+              <Route exact path="/beastbase/web/developers" component={AboutDevs} />
+              <Route exact path="/beastbase/web/register" component={Register} />
+              <Route exact path="/beastbase/web/login" component={Login} />
             </Switch>
           </div>
         </div>
